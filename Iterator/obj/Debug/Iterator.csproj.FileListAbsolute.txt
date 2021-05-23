@@ -1,0 +1,7 @@
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\bin\Debug\Iterator.exe.config
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\bin\Debug\Iterator.exe
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\bin\Debug\Iterator.pdb
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\obj\Debug\Iterator.csprojAssemblyReference.cache
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\obj\Debug\Iterator.exe
+G:\VISUAL STUDIO 2019\Design Pattern\Iterator\Iterator\obj\Debug\Iterator.pdb
