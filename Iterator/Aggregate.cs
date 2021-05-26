@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Iterator
 {
-    abstract class IteratorAggregate : IEnumerator
+    abstract class Aggregate : IEnumerator
     {
         public abstract object Current { get; }
 

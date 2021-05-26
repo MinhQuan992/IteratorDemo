@@ -7,32 +7,32 @@ using System.Threading.Tasks;
 
 namespace Iterator
 {
-    class WordsCollection : IteratorAggregate
+    class ConcreteAggregate : Aggregate
     {
-        List<string> collection = new List<string>();
+        List<Student> _collection = new List<Student>();
 
-        bool direction = false;
+        bool _direction = false;
 
         public void ReverseDirection()
         {
-            direction = !direction;
+            _direction = !_direction;
         }
 
-        public List<string> getItems()
+        public List<Student> getItems()
         {
-            return collection;
+            return _collection;
         }
 
-        public void AddItem(string item)
+        public void AddItem(Student student)
         {
-            this.collection.Add(item);
+            _collection.Add(student);
         }
 
         public override object Current => throw new NotImplementedException();
 
         public override IEnumerator GetEnumerator()
         {
-            return new AlphabeticalOrderIterator(this, direction);
+            return new ConcreteIterator(this, _direction);
         }
 
         public override bool MoveNext()
