@@ -1,40 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Iterator.AlphabeticalOrderIterator">
-    <Position X="6.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAQAAECAIAAAAAAAAAIAIAAAAAAAAAA=</HashCode>
-      <FileName>AlphabeticalOrderIterator.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Iterator.Iterator">
-    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Position X="6.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAQAAACAAAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
       <FileName>Iterator.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Iterator.IteratorAggregate">
-    <Position X="3.75" Y="0.5" Width="1.5" />
+  <Class Name="Iterator.Aggregate">
+    <Position X="3.75" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABBAAAACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>IteratorAggregate.cs</FileName>
+      <FileName>Aggregate.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Iterator.Program">
-    <Position X="9" Y="0.5" Width="1.5" />
+    <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Iterator.WordsCollection">
-    <Position X="3.75" Y="2.75" Width="1.5" />
+  <Class Name="Iterator.ConcreteIterator">
+    <Position X="6.5" Y="3" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAJBAAAECAAAAAgAAAAAAAIAIAAAAAAAA=</HashCode>
-      <FileName>WordsCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAABEQAAACAAAAAAAAAAAQAIAAAgAAAAAA=</HashCode>
+      <FileName>ConcreteIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator.ConcreteAggregate">
+    <Position X="3.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAABFAAAACAAAAAgAAAAAAAIAIIAAAAAAA=</HashCode>
+      <FileName>ConcreteAggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator.Student">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAABAEAAABAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
